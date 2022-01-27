@@ -2,7 +2,7 @@ package model.entities;
 
 import model.entities.enums.Color;
 
-public class Circle extends Shape {
+public class Circle extends AbstractShape {
     private Double radius;
 
     public Circle(Color color, double radius) {
